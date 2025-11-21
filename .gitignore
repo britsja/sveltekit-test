@@ -1,0 +1,61 @@
+# ---------------------------
+# Node
+# ---------------------------
+node_modules/
+
+# ---------------------------
+# Build Output
+# ---------------------------
+.output/
+.vercel/
+.netlify/
+.wrangler/
+.svelte-kit/
+build/
+dist/
+
+# ---------------------------
+# OS Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Environment Variables
+# ---------------------------
+.env
+.env.*
+!.env.example
+!.env.test
+
+# ---------------------------
+# Vite
+# ---------------------------
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# ---------------------------
+# Tailwind CSS Cache (optional)
+# ---------------------------
+.tailwindcss-cache/
+
+# ---------------------------
+# Debug / Logs
+# ---------------------------
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ---------------------------
+# Editor / IDE
+# ---------------------------
+.vscode/
+.idea/
+
+# ---------------------------
+# Testing
+# ---------------------------
+coverage/
